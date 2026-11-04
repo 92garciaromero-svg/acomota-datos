@@ -1,0 +1,15 @@
+name: Diagnostico sondeo BC
+on:
+  push:
+    branches: [diagnostico-bc]
+jobs:
+  ver:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install pdfplumber==0.11.4
+      - run: |
+          for f in SONDEO_VENTANILLA_DOLAR SONDEO_VENTANILLA_EURO; do
+            curl -sSL -A "Mozilla/5.0 AComoTa/1.0" -o $f.pdf "https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/$f.pdf"
+            python -c "import pdfplumber,sys; p=pdfplumber.open('$f.pdf'); print('PAGINAS',len(p.pages)); print(p.pages[0].extract_text()[:4000])"
+            echo =========
+          done
