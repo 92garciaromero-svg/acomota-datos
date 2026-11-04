@@ -1,0 +1,16 @@
+{
+ "result": "success",
+ "provider": "https://www.exchangerate-api.com",
+ "time_last_update_unix": 1793750551,
+ "time_last_update_utc": "Wed, 04 Nov 2026 00:02:31 +0000",
+ "base_code": "DOP",
+ "rates": {
+  "DOP": 1,
+  "USD": 0.016568,
+  "EUR": 0.014818,
+  "CAD": 0.02316198,
+  "GBP": 0.012357,
+  "MXN": 0.308043,
+  "CHF": 0.013579
+ }
+}

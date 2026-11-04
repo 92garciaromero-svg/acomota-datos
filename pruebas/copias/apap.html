@@ -1,0 +1,35 @@
+<!doctype html>
+<html><body>
+<!-- extracto real de https://www.apap.com.do/ (3 nov 2026) -->
+<script type="text/javascript">
+function addZeroes(num, pre, post) {
+    if (post != null) {
+        var value = '';
+        value = num.toLocaleString("en", { useGrouping: false, minimumFractionDigits: 2 });
+        value = pre + ' ' + value + ' ' + post;
+    } else {
+        return num.toLocaleString("en", { useGrouping: false, minimumFractionDigits: 2 })
+    }
+}
+
+// Exchange Rates Modal
+function getRates() {
+    $("#currency-buy-USD").html(addZeroes(58.50, null, "DOP"));
+    $("#currency-sell-USD").html(addZeroes(61.45, null, "DOP"));
+    $("#currency-buy-EUR").html(addZeroes(66.30, null, "DOP"));
+    $("#currency-sell-EUR").html(addZeroes(71.00, null, "DOP"));
+
+    $("#rateHP").html(addZeroes(12.50, null, "%"));
+    $("#rateVEH").html(addZeroes(18.80, null, "%"));
+    $("#ratePR").html(addZeroes(20, null, "%"));
+    $("#rateCDDOP").html(addZeroes(9.25, null, "%"));
+}
+
+$("#currency-buy-USD").html("58.50 DOP");
+$("#currency-sell-USD").html("61.45 DOP");
+$("#currency-buy-EUR").html("66.30 DOP");
+$("#currency-sell-EUR").html("71.00 DOP");
+
+$("#rateHP").html("Desde 12.50%");
+</script>
+</body></html>

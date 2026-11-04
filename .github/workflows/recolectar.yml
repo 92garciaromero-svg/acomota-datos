@@ -1,0 +1,52 @@
+name: Recolectar tasas
+
+on:
+  schedule:
+    # Cada 2 horas de 7:00 a.m. a 7:00 p.m. (hora de RD = UTC-4), de lunes a sábado.
+    - cron: "7 11-23/2 * * 1-6"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "recolector.py"
+      - "validar.py"
+      - "main.py"
+      - "requirements.txt"
+      - ".github/workflows/recolectar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recolectar
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar
+        run: pip install -r requirements.txt
+
+      - name: Pruebas con las copias guardadas
+        run: python -m pytest -q pruebas
+
+      - name: Leer las fuentes
+        run: python main.py
+
+      - name: Guardar los datos
+        run: |
+          git config user.name "acomota-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos
+          git diff --cached --quiet || git commit -m "Tasas $(TZ=America/Santo_Domingo date '+%Y-%m-%d %H:%M')"
+          git pull --rebase origin main
+          git push

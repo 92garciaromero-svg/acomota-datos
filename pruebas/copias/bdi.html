@@ -1,0 +1,34 @@
+<!doctype html>
+<html><body>
+<!-- extracto real de https://www.bdi.com.do/ (3 nov 2026) -->
+<script>
+ function ChangeRateDollarSell(input) {
+ var amount = parseInt(input.value);
+ var dolarValue = parseFloat(61.50);
+ var number = (amount * dolarValue).toFixed(2);
+ var formatted = (amount * dolarValue).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+ document.getElementById('rd-venta').value =formatted;
+ }
+ function ChangeRateDollarBuy(input) {
+ var amount = parseInt(input.value);
+ var dolarValue = parseFloat(59.75);
+ var number = (amount * dolarValue).toFixed(2);
+ var formatted = (amount * dolarValue).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+ document.getElementById('rd-compra').value = formatted;
+ }
+ function ChangeRateEuroSell(input) {
+ var amount = parseInt(input.value);
+ var dolarValue = parseFloat(70.00);
+ var number = (amount * dolarValue).toFixed(2);
+ var formatted = (amount * dolarValue).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+ document.getElementById('rd-euro-venta').value = formatted;
+ }
+ function ChangeRateEuroBuy(input) {
+ var amount = parseInt(input.value);
+ var dolarValue = parseFloat(66.00);
+ var number = (amount * dolarValue).toFixed(2);
+ var formatted = (amount * dolarValue).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+ document.getElementById('rd-euro-compra').value = formatted;
+ }
+</script>
+</body></html>
