@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-04T00:21-04:00",
+ "actualizado": "2026-11-04T04:04-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.4231,
@@ -8,7 +8,7 @@
   },
   "fecha_fuente": "2026-11-03",
   "vigente": true,
-  "leido": "2026-11-04T00:21-04:00",
+  "leido": "2026-11-04T04:04-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": null
  },
@@ -27,7 +27,7 @@
     "venta": 70.4
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": "2026-11-03T17:20:00+00:00",
    "ayer": null
   },
@@ -39,7 +39,7 @@
    "usd": null,
    "eur": null,
    "vigente": false,
-   "motivo": "no se pudo descargar: HTTPError",
+   "motivo": "no se pudo descargar (403)",
    "leido": null,
    "ayer": null
   },
@@ -57,7 +57,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -75,7 +75,7 @@
     "venta": 69.55
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -87,7 +87,7 @@
    "usd": null,
    "eur": null,
    "vigente": false,
-   "motivo": "no se pudo descargar: HTTPError",
+   "motivo": "no se pudo descargar (403)",
    "leido": null,
    "ayer": null
   },
@@ -105,7 +105,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -123,7 +123,7 @@
     "venta": 70.4
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": "2026-11-03",
    "ayer": null
   },
@@ -141,7 +141,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -159,7 +159,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -177,7 +177,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-04T00:21-04:00",
+   "leido": "2026-11-04T04:04-04:00",
    "fecha_fuente": null,
    "ayer": null
   }
@@ -282,10 +282,10 @@
   "exchangerate": "ok",
   "bancocentral": "ok",
   "popular": "ok",
-  "banreservas": "error: no se pudo descargar: HTTPError",
+  "banreservas": "error: no se pudo descargar (403)",
   "bhd": "ok",
   "scotiabank": "ok",
-  "caribe": "error: no se pudo descargar: HTTPError",
+  "caribe": "error: no se pudo descargar (403)",
   "bdi": "ok",
   "vimenca": "ok",
   "apap": "ok",
