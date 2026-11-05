@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-04T20:16-04:00",
+ "actualizado": "2026-11-04T23:40-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.5704,
@@ -8,7 +8,7 @@
   },
   "fecha_fuente": "2026-11-04",
   "vigente": true,
-  "leido": "2026-11-04T20:16-04:00",
+  "leido": "2026-11-04T23:40-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": null
  },
@@ -27,7 +27,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": "2026-11-04T16:55:00+00:00",
    "ayer": null
   },
@@ -39,8 +39,8 @@
    "usd": null,
    "eur": null,
    "vigente": false,
-   "motivo": "no se pudo descargar (403)",
-   "leido": null,
+   "solo_enlace": true,
+   "enlace": "https://www.banreservas.com/",
    "ayer": null
   },
   {
@@ -57,7 +57,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -75,7 +75,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -87,8 +87,8 @@
    "usd": null,
    "eur": null,
    "vigente": false,
-   "motivo": "no se pudo descargar (403)",
-   "leido": null,
+   "solo_enlace": true,
+   "enlace": "https://www.bancocaribe.com.do/",
    "ayer": null
   },
   {
@@ -105,7 +105,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -123,7 +123,7 @@
     "venta": 70.6
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": "2026-11-04",
    "ayer": null
   },
@@ -141,7 +141,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -159,7 +159,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": null,
    "ayer": null
   },
@@ -177,7 +177,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-04T20:16-04:00",
+   "leido": "2026-11-04T23:40-04:00",
    "fecha_fuente": null,
    "ayer": null
   }
@@ -187,35 +187,35 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.3573
+    "pesos": 60.4412
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 67.4855
+    "pesos": 67.7507
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 43.1742
+    "pesos": 43.1462
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 80.9258
+    "pesos": 81.1622
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.2463
+    "pesos": 3.2133
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 73.6431
+    "pesos": 73.8225
    }
   ],
-  "fecha_fuente": "Wed, 04 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Thu, 05 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
@@ -282,10 +282,10 @@
   "exchangerate": "ok",
   "bancocentral": "ok",
   "popular": "ok",
-  "banreservas": "error: no se pudo descargar (403)",
+  "banreservas": "enlace",
   "bhd": "ok",
   "scotiabank": "ok",
-  "caribe": "error: no se pudo descargar (403)",
+  "caribe": "enlace",
   "bdi": "ok",
   "vimenca": "ok",
   "apap": "ok",
