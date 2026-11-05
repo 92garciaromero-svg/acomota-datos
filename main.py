@@ -21,6 +21,12 @@ ZONA = ZoneInfo("America/Santo_Domingo")
 AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
           "(KHTML, like Gecko) Chrome/130.0 Safari/537.36 AComoTa/1.0")
 ATRIBUCION = "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)"
+# Estos lugares bloquean a propósito el acceso automático desde servidores (responden 403).
+# No los leemos: la app muestra un botón para ver la tasa en su propia página.
+SOLO_ENLACE = {
+    "banreservas": "https://www.banreservas.com/",
+    "caribe": "https://www.bancocaribe.com.do/",
+}
 MICM_FEEDS = ["https://micm.gob.do/tag/combustibles/feed/", "https://micm.gob.do/feed/"]
 
 COPIAS = {  # id -> archivo, para correr sin internet
@@ -135,6 +141,11 @@ def recolectar(lector, salida, momento=None):
     for ident, nombre, tipo, url, formato, leer in r.LUGARES:
         base = {"id": ident, "nombre": nombre, "tipo": tipo, "fuente": url}
         previo = previos.get(ident) or {}
+        if ident in SOLO_ENLACE:
+            lugares.append(dict(base, usd=None, eur=None, vigente=False, solo_enlace=True,
+                                enlace=SOLO_ENLACE[ident], ayer=None))
+            estado[ident] = "enlace"
+            continue
         try:
             datos = leer(lector.traer(ident, url, formato))
             for moneda in ("usd", "eur"):
@@ -201,13 +212,14 @@ def main():
     p.add_argument("--salida", default="datos")
     a = p.parse_args()
     resumen = recolectar(Lector(a.copias), a.salida)
-    malos = {k: e for k, e in resumen["estado"].items() if e != "ok"}
-    print(f"Actualizado {resumen['actualizado']}: {len(resumen['estado']) - len(malos)} fuentes bien, "
-          f"{len(malos)} con problemas")
+    malos = {k: e for k, e in resumen["estado"].items() if e not in ("ok", "enlace")}
+    enlaces = sum(e == "enlace" for e in resumen["estado"].values())
+    print(f"Actualizado {resumen['actualizado']}: {len(resumen['estado']) - len(malos) - enlaces} fuentes bien, "
+          f"{enlaces} solo con enlace, {len(malos)} con problemas")
     for k, e in malos.items():
         print(f"  - {k}: {e}")
     # Solo falla la corrida si no se pudo leer nada de nada.
-    sys.exit(1 if len(malos) == len(resumen["estado"]) else 0)
+    sys.exit(1 if len(malos) == len(resumen["estado"]) - enlaces else 0)
 
 
 if __name__ == "__main__":

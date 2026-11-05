@@ -124,13 +124,33 @@ MOMENTO = datetime(2026, 11, 3, 19, 30, tzinfo=main.ZONA)
 
 def test_corrida_completa_con_copias(tmp_path):
     res = main.recolectar(main.Lector(COPIAS), tmp_path, MOMENTO)
-    assert all(e == "ok" for e in res["estado"].values()), res["estado"]
-    assert len(res["lugares"]) == 10 and all(x["vigente"] for x in res["lugares"])
+    assert all(e in ("ok", "enlace") for e in res["estado"].values()), res["estado"]
+    assert len(res["lugares"]) == 10
+    assert sum(x["vigente"] for x in res["lugares"]) == 8
+    solo = {x["id"]: x for x in res["lugares"] if x.get("solo_enlace")}
+    assert set(solo) == {"banreservas", "caribe"}
+    assert solo["banreservas"]["enlace"] == "https://www.banreservas.com/" and solo["caribe"]["usd"] is None
     assert res["banco_central"]["usd"]["compra"] == 60.4231
     assert len(res["combustibles"]["precios"]) == 7
     guardado = json.loads((tmp_path / "actual.json").read_text(encoding="utf-8"))
     assert guardado["actualizado"] == "2026-11-03T19:30-04:00"
     assert (tmp_path / "historial" / "2026-11-03.json").exists()
+
+
+class LectorQueAnota(main.Lector):
+    def __init__(self):
+        super().__init__(COPIAS)
+        self.pedidos = []
+
+    def traer(self, ident, url, formato="html"):
+        self.pedidos.append(ident)
+        return super().traer(ident, url, formato)
+
+
+def test_no_se_piden_los_sitios_que_bloquean(tmp_path):
+    lector = LectorQueAnota()
+    main.recolectar(lector, tmp_path, MOMENTO)
+    assert "banreservas" not in lector.pedidos and "caribe" not in lector.pedidos
 
 
 class LectorRoto(main.Lector):
@@ -148,11 +168,11 @@ class LectorRoto(main.Lector):
 
 def test_banco_roto_conserva_ultimo_valor_bueno(tmp_path):
     main.recolectar(main.Lector(COPIAS), tmp_path, MOMENTO)
-    res = main.recolectar(LectorRoto({"banreservas"}), tmp_path, MOMENTO)
-    br = next(x for x in res["lugares"] if x["id"] == "banreservas")
-    assert br["vigente"] is False and br["usd"]["compra"] == 58.40 and "motivo" in br
-    assert res["estado"]["banreservas"].startswith("error")
-    assert sum(x["vigente"] for x in res["lugares"]) == 9
+    res = main.recolectar(LectorRoto({"bhd"}), tmp_path, MOMENTO)
+    bhd = next(x for x in res["lugares"] if x["id"] == "bhd")
+    assert bhd["vigente"] is False and bhd["usd"]["compra"] == 57.95 and "motivo" in bhd
+    assert res["estado"]["bhd"].startswith("error")
+    assert sum(x["vigente"] for x in res["lugares"]) == 7
 
 
 def test_banco_roto_sin_valor_anterior(tmp_path):
