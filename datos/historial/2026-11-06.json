@@ -1,14 +1,14 @@
 {
  "version": 1,
- "actualizado": "2026-11-06T13:52-04:00",
+ "actualizado": "2026-11-06T19:41-04:00",
  "banco_central": {
   "usd": {
-   "compra": 60.5876,
-   "venta": 60.9038
+   "compra": 60.4617,
+   "venta": 60.7601
   },
-  "fecha_fuente": "2026-11-05",
+  "fecha_fuente": "2026-11-06",
   "vigente": true,
-  "leido": "2026-11-06T13:52-04:00",
+  "leido": "2026-11-06T19:41-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.5876,
@@ -22,7 +22,7 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 58.0,
+    "compra": 57.45,
     "venta": 61.45
    },
    "eur": {
@@ -30,8 +30,8 @@
     "venta": 70.5
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
-   "fecha_fuente": "2026-11-06T09:45:00+00:00",
+   "leido": "2026-11-06T19:41-04:00",
+   "fecha_fuente": "2026-11-06T16:50:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -134,8 +134,8 @@
     "compra": 66.0,
     "venta": 70.0
    },
-   "vigente": false,
-   "leido": "2026-11-05T20:00-04:00",
+   "vigente": true,
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -146,8 +146,7 @@
      "compra": 66.0,
      "venta": 70.0
     }
-   },
-   "motivo": "no se pudo descargar (ConnectTimeout)"
+   }
   },
   {
    "id": "vimenca",
@@ -163,7 +162,7 @@
     "venta": 70.7
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": "2026-11-06",
    "ayer": {
     "usd": {
@@ -190,7 +189,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -217,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -244,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-06T13:52-04:00",
+   "leido": "2026-11-06T19:41-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -297,15 +296,15 @@
   "fuente": "https://www.exchangerate-api.com"
  },
  "combustibles": {
-  "publicado": "2026-10-30T19:54:32+00:00",
-  "semana": "31 de octubre al 6 de noviembre de 2026",
+  "publicado": "2026-11-06T21:00:06+00:00",
+  "semana": "7 al 13 de noviembre de 2026",
   "precios": [
    {
     "id": "gasolina_premium",
     "nombre": "Gasolina premium",
-    "precio": 358.1,
+    "precio": 362.1,
     "unidad": "galón",
-    "cambio": 0.0
+    "cambio": 4.0
    },
    {
     "id": "gasolina_regular",
@@ -324,9 +323,9 @@
    {
     "id": "gasoil_optimo",
     "nombre": "Gasoil óptimo",
-    "precio": 318.1,
+    "precio": 322.1,
     "unidad": "galón",
-    "cambio": 0.0
+    "cambio": 4.0
    },
    {
     "id": "glp",
@@ -338,9 +337,9 @@
    {
     "id": "kerosene",
     "nombre": "Kerosene",
-    "precio": 400.1,
+    "precio": 383.0,
     "unidad": "galón",
-    "cambio": -2.6
+    "cambio": -17.1
    },
    {
     "id": "gas_natural",
@@ -350,7 +349,7 @@
     "cambio": 0.0
    }
   ],
-  "enlace": "https://micm.gob.do/gobierno-congela-combustibles-9/",
+  "enlace": "https://micm.gob.do/gobierno-reajusta-combustibles-premium/",
   "vigente": true,
   "fuente": "https://micm.gob.do"
  },
@@ -362,7 +361,7 @@
   "bhd": "ok",
   "scotiabank": "ok",
   "caribe": "enlace",
-  "bdi": "error: no se pudo descargar (ConnectTimeout)",
+  "bdi": "ok",
   "vimenca": "ok",
   "apap": "ok",
   "cibao": "ok",
