@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-06T19:41-04:00",
+ "actualizado": "2026-11-07T12:47-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.4617,
@@ -8,11 +8,11 @@
   },
   "fecha_fuente": "2026-11-06",
   "vigente": true,
-  "leido": "2026-11-06T19:41-04:00",
+  "leido": "2026-11-07T12:47-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
-   "compra": 60.5876,
-   "venta": 60.9038
+   "compra": 60.4617,
+   "venta": 60.7601
   }
  },
  "lugares": [
@@ -30,7 +30,7 @@
     "venta": 70.5
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": "2026-11-06T16:50:00+00:00",
    "ayer": {
     "usd": {
@@ -38,8 +38,8 @@
      "venta": 61.45
     },
     "eur": {
-     "compra": 66.5,
-     "venta": 71.1
+     "compra": 65.9,
+     "venta": 70.5
     }
    }
   },
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -135,7 +135,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,11 +162,11 @@
     "venta": 70.7
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
-   "fecha_fuente": "2026-11-06",
+   "leido": "2026-11-07T12:47-04:00",
+   "fecha_fuente": "2026-11-10",
    "ayer": {
     "usd": {
-     "compra": 59.8,
+     "compra": 59.6,
      "venta": 61.4
     },
     "eur": {
@@ -189,7 +189,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -216,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-06T19:41-04:00",
+   "leido": "2026-11-07T12:47-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -262,35 +262,35 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.3865
+    "pesos": 60.5217
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 67.714
+    "pesos": 67.8979
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 43.1593
+    "pesos": 43.2545
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 81.1688
+    "pesos": 81.3736
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.2429
+    "pesos": 3.2503
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 73.8062
+    "pesos": 74.0302
    }
   ],
-  "fecha_fuente": "Fri, 06 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Sat, 07 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
