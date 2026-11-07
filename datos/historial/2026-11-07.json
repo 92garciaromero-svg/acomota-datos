@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-07T12:47-04:00",
+ "actualizado": "2026-11-07T16:45-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.4617,
@@ -8,7 +8,7 @@
   },
   "fecha_fuente": "2026-11-06",
   "vigente": true,
-  "leido": "2026-11-07T12:47-04:00",
+  "leido": "2026-11-07T16:45-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.4617,
@@ -30,7 +30,7 @@
     "venta": 70.5
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": "2026-11-06T16:50:00+00:00",
    "ayer": {
     "usd": {
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -135,7 +135,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,7 +162,7 @@
     "venta": 70.7
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": "2026-11-10",
    "ayer": {
     "usd": {
@@ -189,7 +189,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -216,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-07T12:47-04:00",
+   "leido": "2026-11-07T16:45-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
