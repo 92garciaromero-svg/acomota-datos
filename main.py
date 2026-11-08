@@ -23,9 +23,10 @@ AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 ATRIBUCION = "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)"
 # Estos lugares bloquean a propósito el acceso automático desde servidores (responden 403).
 # No los leemos: la app muestra un botón para ver la tasa en su propia página.
+# Cada enlace cae directo donde el banco muestra su tasa (revisado el 8 nov 2026 en tamaño de celular).
 SOLO_ENLACE = {
-    "banreservas": "https://www.banreservas.com/",
-    "caribe": "https://www.bancocaribe.com.do/",
+    "banreservas": "https://www.banreservas.com/calculadoras/#divisas",
+    "caribe": "https://www.bancocaribe.com.do/divisas#pills-tab-divisa",
 }
 MICM_FEEDS = ["https://micm.gob.do/tag/combustibles/feed/", "https://micm.gob.do/feed/"]
 

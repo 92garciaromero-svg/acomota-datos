@@ -76,7 +76,8 @@ def test_otras_monedas():
     m = r.leer_exchangerate(leer("exchangerate.json"))
     pesos = {x["codigo"]: x["pesos"] for x in m["monedas"]}
     assert pesos["EUR"] == pytest.approx(67.4855, abs=0.001)
-    assert set(pesos) == {"USD", "EUR", "CAD", "GBP", "MXN", "CHF"}
+    assert set(pesos) == {"USD", "EUR", "CAD", "GBP", "MXN", "CHF", "HTG"}
+    assert 0.3 < pesos["HTG"] < 0.7  # un gourde vale menos de un peso
 
 
 # ---------------------------------------------------------------- páginas cambiadas o rotas
@@ -129,7 +130,7 @@ def test_corrida_completa_con_copias(tmp_path):
     assert sum(x["vigente"] for x in res["lugares"]) == 8
     solo = {x["id"]: x for x in res["lugares"] if x.get("solo_enlace")}
     assert set(solo) == {"banreservas", "caribe"}
-    assert solo["banreservas"]["enlace"] == "https://www.banreservas.com/" and solo["caribe"]["usd"] is None
+    assert solo["banreservas"]["enlace"] == "https://www.banreservas.com/calculadoras/#divisas" and solo["caribe"]["usd"] is None
     assert res["banco_central"]["usd"]["compra"] == 60.4231
     assert len(res["combustibles"]["precios"]) == 7
     guardado = json.loads((tmp_path / "actual.json").read_text(encoding="utf-8"))

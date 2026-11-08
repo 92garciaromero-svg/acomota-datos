@@ -301,7 +301,8 @@ def leer_micm(texto):
 # ---------------------------------------------------------------- otras monedas
 
 MONEDAS = [("USD", "Dólar estadounidense"), ("EUR", "Euro"), ("CAD", "Dólar canadiense"),
-           ("GBP", "Libra esterlina"), ("MXN", "Peso mexicano"), ("CHF", "Franco suizo")]
+           ("GBP", "Libra esterlina"), ("MXN", "Peso mexicano"), ("CHF", "Franco suizo"),
+           ("HTG", "Gourde haitiano")]
 
 
 def leer_exchangerate(texto):
