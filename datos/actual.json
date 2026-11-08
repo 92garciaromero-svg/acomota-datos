@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-07T20:21-04:00",
+ "actualizado": "2026-11-08T14:08-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.4617,
@@ -8,7 +8,7 @@
   },
   "fecha_fuente": "2026-11-06",
   "vigente": true,
-  "leido": "2026-11-07T20:21-04:00",
+  "leido": "2026-11-08T14:08-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.4617,
@@ -30,7 +30,7 @@
     "venta": 70.5
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": "2026-11-06T16:50:00+00:00",
    "ayer": {
     "usd": {
@@ -52,7 +52,7 @@
    "eur": null,
    "vigente": false,
    "solo_enlace": true,
-   "enlace": "https://www.banreservas.com/",
+   "enlace": "https://www.banreservas.com/calculadoras/#divisas",
    "ayer": null
   },
   {
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -118,7 +118,7 @@
    "eur": null,
    "vigente": false,
    "solo_enlace": true,
-   "enlace": "https://www.bancocaribe.com.do/",
+   "enlace": "https://www.bancocaribe.com.do/divisas#pills-tab-divisa",
    "ayer": null
   },
   {
@@ -135,7 +135,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,7 +162,7 @@
     "venta": 70.7
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": "2026-11-10",
    "ayer": {
     "usd": {
@@ -189,7 +189,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -216,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-07T20:21-04:00",
+   "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -262,35 +262,40 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.5217
+    "pesos": 60.5144
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 67.8979
+    "pesos": 67.8933
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 43.2545
+    "pesos": 43.2507
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 81.3736
+    "pesos": 81.367
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.2503
+    "pesos": 3.25
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 74.0302
+    "pesos": 74.0192
+   },
+   {
+    "codigo": "HTG",
+    "nombre": "Gourde haitiano",
+    "pesos": 0.4629
    }
   ],
-  "fecha_fuente": "Sat, 07 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Sun, 08 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
