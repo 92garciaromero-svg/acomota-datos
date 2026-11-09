@@ -11,11 +11,13 @@ on:
       - "recolector.py"
       - "validar.py"
       - "main.py"
+      - "vigilar.py"
       - "requirements.txt"
       - ".github/workflows/recolectar.yml"
 
 permissions:
   contents: write
+  issues: write # para avisar cuando una fuente se rompa
 
 concurrency:
   group: recolectar
@@ -40,9 +42,17 @@ jobs:
         run: python -m pytest -q pruebas
 
       - name: Leer las fuentes
+        id: leer
         run: python main.py
 
+      - name: Avisar si una fuente se rompió
+        if: ${{ !cancelled() && steps.leer.outcome != 'skipped' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python vigilar.py
+
       - name: Guardar los datos
+        if: ${{ !cancelled() && steps.leer.outcome != 'skipped' }}
         run: |
           git config user.name "acomota-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
