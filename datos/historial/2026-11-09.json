@@ -1,0 +1,378 @@
+{
+ "version": 1,
+ "actualizado": "2026-11-09T00:44-04:00",
+ "banco_central": {
+  "usd": {
+   "compra": 60.4617,
+   "venta": 60.7601
+  },
+  "fecha_fuente": "2026-11-06",
+  "vigente": true,
+  "leido": "2026-11-09T00:44-04:00",
+  "fuente": "https://www.bancentral.gov.do/",
+  "ayer": {
+   "compra": 60.4617,
+   "venta": 60.7601
+  }
+ },
+ "lugares": [
+  {
+   "id": "popular",
+   "nombre": "Banco Popular",
+   "tipo": "Banco",
+   "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
+   "usd": {
+    "compra": 57.45,
+    "venta": 61.45
+   },
+   "eur": {
+    "compra": 65.9,
+    "venta": 70.5
+   },
+   "vigente": true,
+   "leido": "2026-11-09T00:44-04:00",
+   "fecha_fuente": "2026-11-06T16:50:00+00:00",
+   "ayer": {
+    "usd": {
+     "compra": 57.45,
+     "venta": 61.45
+    },
+    "eur": {
+     "compra": 65.9,
+     "venta": 70.5
+    }
+   }
+  },
+  {
+   "id": "banreservas",
+   "nombre": "Banreservas",
+   "tipo": "Banco",
+   "fuente": "https://www.banreservas.com/",
+   "usd": null,
+   "eur": null,
+   "vigente": false,
+   "solo_enlace": true,
+   "enlace": "https://www.banreservas.com/calculadoras/#divisas",
+   "ayer": null
+  },
+  {
+   "id": "bhd",
+   "nombre": "BHD",
+   "tipo": "Banco",
+   "fuente": "https://backend.bhd.com.do/api/modal-cambio-rate?populate=deep",
+   "usd": {
+    "compra": 57.95,
+    "venta": 61.4
+   },
+   "eur": {
+    "compra": 66.0,
+    "venta": 71.5
+   },
+   "vigente": false,
+   "leido": "2026-11-08T14:08-04:00",
+   "fecha_fuente": null,
+   "ayer": {
+    "usd": {
+     "compra": 57.95,
+     "venta": 61.4
+    },
+    "eur": {
+     "compra": 66.0,
+     "venta": 71.5
+    }
+   },
+   "motivo": "EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
+  },
+  {
+   "id": "scotiabank",
+   "nombre": "Scotiabank",
+   "tipo": "Banco",
+   "fuente": "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html",
+   "usd": {
+    "compra": 58.0,
+    "venta": 61.45
+   },
+   "eur": {
+    "compra": 66.7,
+    "venta": 71.1
+   },
+   "vigente": true,
+   "leido": "2026-11-09T00:44-04:00",
+   "fecha_fuente": null,
+   "ayer": {
+    "usd": {
+     "compra": 58.0,
+     "venta": 61.45
+    },
+    "eur": {
+     "compra": 66.7,
+     "venta": 71.1
+    }
+   }
+  },
+  {
+   "id": "caribe",
+   "nombre": "Banco Caribe",
+   "tipo": "Banco",
+   "fuente": "https://www.bancocaribe.com.do/",
+   "usd": null,
+   "eur": null,
+   "vigente": false,
+   "solo_enlace": true,
+   "enlace": "https://www.bancocaribe.com.do/divisas#pills-tab-divisa",
+   "ayer": null
+  },
+  {
+   "id": "bdi",
+   "nombre": "Banco BDI",
+   "tipo": "Banco",
+   "fuente": "https://www.bdi.com.do/",
+   "usd": {
+    "compra": 59.75,
+    "venta": 61.5
+   },
+   "eur": {
+    "compra": 66.0,
+    "venta": 70.0
+   },
+   "vigente": true,
+   "leido": "2026-11-09T00:44-04:00",
+   "fecha_fuente": null,
+   "ayer": {
+    "usd": {
+     "compra": 59.75,
+     "venta": 61.5
+    },
+    "eur": {
+     "compra": 66.0,
+     "venta": 70.0
+    }
+   }
+  },
+  {
+   "id": "vimenca",
+   "nombre": "Banco Vimenca",
+   "tipo": "Banco",
+   "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
+   "usd": {
+    "compra": 59.6,
+    "venta": 61.4
+   },
+   "eur": {
+    "compra": 66.6,
+    "venta": 70.7
+   },
+   "vigente": true,
+   "leido": "2026-11-09T00:44-04:00",
+   "fecha_fuente": "2026-11-10",
+   "ayer": {
+    "usd": {
+     "compra": 59.6,
+     "venta": 61.4
+    },
+    "eur": {
+     "compra": 66.6,
+     "venta": 70.7
+    }
+   }
+  },
+  {
+   "id": "apap",
+   "nombre": "APAP",
+   "tipo": "Asociación",
+   "fuente": "https://www.apap.com.do/",
+   "usd": {
+    "compra": 58.5,
+    "venta": 61.45
+   },
+   "eur": {
+    "compra": 66.3,
+    "venta": 71.0
+   },
+   "vigente": true,
+   "leido": "2026-11-09T00:44-04:00",
+   "fecha_fuente": null,
+   "ayer": {
+    "usd": {
+     "compra": 58.5,
+     "venta": 61.45
+    },
+    "eur": {
+     "compra": 66.3,
+     "venta": 71.0
+    }
+   }
+  },
+  {
+   "id": "cibao",
+   "nombre": "Asociación Cibao",
+   "tipo": "Asociación",
+   "fuente": "https://www.cibao.com.do/api/Coins/GetCoins",
+   "usd": {
+    "compra": 59.4,
+    "venta": 61.4
+   },
+   "eur": {
+    "compra": 66.0,
+    "venta": 71.5
+   },
+   "vigente": false,
+   "leido": "2026-11-08T14:08-04:00",
+   "fecha_fuente": null,
+   "ayer": {
+    "usd": {
+     "compra": 59.4,
+     "venta": 61.4
+    },
+    "eur": {
+     "compra": 66.0,
+     "venta": 71.5
+    }
+   },
+   "motivo": "EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
+  },
+  {
+   "id": "caribeexpress",
+   "nombre": "Caribe Express",
+   "tipo": "Remesadora",
+   "fuente": "https://caribeexpress.com.do/servicios/cambio",
+   "usd": {
+    "compra": 59.75,
+    "venta": null
+   },
+   "eur": {
+    "compra": 66.5,
+    "venta": null
+   },
+   "vigente": true,
+   "leido": "2026-11-09T00:44-04:00",
+   "fecha_fuente": null,
+   "ayer": {
+    "usd": {
+     "compra": 59.75,
+     "venta": null
+    },
+    "eur": {
+     "compra": 66.5,
+     "venta": null
+    }
+   }
+  }
+ ],
+ "monedas": {
+  "lista": [
+   {
+    "codigo": "USD",
+    "nombre": "Dólar estadounidense",
+    "pesos": 60.4412
+   },
+   {
+    "codigo": "EUR",
+    "nombre": "Euro",
+    "pesos": 67.4263
+   },
+   {
+    "codigo": "CAD",
+    "nombre": "Dólar canadiense",
+    "pesos": 42.8908
+   },
+   {
+    "codigo": "GBP",
+    "nombre": "Libra esterlina",
+    "pesos": 80.8081
+   },
+   {
+    "codigo": "MXN",
+    "nombre": "Peso mexicano",
+    "pesos": 3.2356
+   },
+   {
+    "codigo": "CHF",
+    "nombre": "Franco suizo",
+    "pesos": 73.7409
+   },
+   {
+    "codigo": "HTG",
+    "nombre": "Gourde haitiano",
+    "pesos": 0.4637
+   }
+  ],
+  "fecha_fuente": "Mon, 09 Nov 2026 00:02:31 +0000",
+  "vigente": true,
+  "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
+  "fuente": "https://www.exchangerate-api.com"
+ },
+ "combustibles": {
+  "publicado": "2026-11-06T21:00:06+00:00",
+  "semana": "7 al 13 de noviembre de 2026",
+  "precios": [
+   {
+    "id": "gasolina_premium",
+    "nombre": "Gasolina premium",
+    "precio": 362.1,
+    "unidad": "galón",
+    "cambio": 4.0
+   },
+   {
+    "id": "gasolina_regular",
+    "nombre": "Gasolina regular",
+    "precio": 317.5,
+    "unidad": "galón",
+    "cambio": 0.0
+   },
+   {
+    "id": "gasoil_regular",
+    "nombre": "Gasoil regular",
+    "precio": 270.8,
+    "unidad": "galón",
+    "cambio": 0.0
+   },
+   {
+    "id": "gasoil_optimo",
+    "nombre": "Gasoil óptimo",
+    "precio": 322.1,
+    "unidad": "galón",
+    "cambio": 4.0
+   },
+   {
+    "id": "glp",
+    "nombre": "Gas (GLP)",
+    "precio": 135.2,
+    "unidad": "galón",
+    "cambio": 0.0
+   },
+   {
+    "id": "kerosene",
+    "nombre": "Kerosene",
+    "precio": 383.0,
+    "unidad": "galón",
+    "cambio": -17.1
+   },
+   {
+    "id": "gas_natural",
+    "nombre": "Gas natural",
+    "precio": 43.97,
+    "unidad": "m³",
+    "cambio": 0.0
+   }
+  ],
+  "enlace": "https://micm.gob.do/gobierno-reajusta-combustibles-premium/",
+  "vigente": true,
+  "fuente": "https://micm.gob.do"
+ },
+ "estado": {
+  "exchangerate": "ok",
+  "bancocentral": "ok",
+  "popular": "ok",
+  "banreservas": "enlace",
+  "bhd": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)",
+  "scotiabank": "ok",
+  "caribe": "enlace",
+  "bdi": "ok",
+  "vimenca": "ok",
+  "apap": "ok",
+  "cibao": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)",
+  "caribeexpress": "ok",
+  "micm": "ok"
+ }
+}

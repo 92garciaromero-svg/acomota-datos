@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-08T14:08-04:00",
+ "actualizado": "2026-11-09T00:44-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.4617,
@@ -8,7 +8,7 @@
   },
   "fecha_fuente": "2026-11-06",
   "vigente": true,
-  "leido": "2026-11-08T14:08-04:00",
+  "leido": "2026-11-09T00:44-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.4617,
@@ -30,7 +30,7 @@
     "venta": 70.5
    },
    "vigente": true,
-   "leido": "2026-11-08T14:08-04:00",
+   "leido": "2026-11-09T00:44-04:00",
    "fecha_fuente": "2026-11-06T16:50:00+00:00",
    "ayer": {
     "usd": {
@@ -68,7 +68,7 @@
     "compra": 66.0,
     "venta": 71.5
    },
-   "vigente": true,
+   "vigente": false,
    "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
@@ -80,7 +80,8 @@
      "compra": 66.0,
      "venta": 71.5
     }
-   }
+   },
+   "motivo": "EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
   },
   {
    "id": "scotiabank",
@@ -96,7 +97,7 @@
     "venta": 71.1
    },
    "vigente": true,
-   "leido": "2026-11-08T14:08-04:00",
+   "leido": "2026-11-09T00:44-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -135,7 +136,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-08T14:08-04:00",
+   "leido": "2026-11-09T00:44-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,7 +163,7 @@
     "venta": 70.7
    },
    "vigente": true,
-   "leido": "2026-11-08T14:08-04:00",
+   "leido": "2026-11-09T00:44-04:00",
    "fecha_fuente": "2026-11-10",
    "ayer": {
     "usd": {
@@ -189,7 +190,7 @@
     "venta": 71.0
    },
    "vigente": true,
-   "leido": "2026-11-08T14:08-04:00",
+   "leido": "2026-11-09T00:44-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -215,7 +216,7 @@
     "compra": 66.0,
     "venta": 71.5
    },
-   "vigente": true,
+   "vigente": false,
    "leido": "2026-11-08T14:08-04:00",
    "fecha_fuente": null,
    "ayer": {
@@ -227,7 +228,8 @@
      "compra": 66.0,
      "venta": 71.5
     }
-   }
+   },
+   "motivo": "EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
   },
   {
    "id": "caribeexpress",
@@ -243,7 +245,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-08T14:08-04:00",
+   "leido": "2026-11-09T00:44-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -262,40 +264,40 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.5144
+    "pesos": 60.4412
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 67.8933
+    "pesos": 67.4263
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 43.2507
+    "pesos": 42.8908
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 81.367
+    "pesos": 80.8081
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.25
+    "pesos": 3.2356
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 74.0192
+    "pesos": 73.7409
    },
    {
     "codigo": "HTG",
     "nombre": "Gourde haitiano",
-    "pesos": 0.4629
+    "pesos": 0.4637
    }
   ],
-  "fecha_fuente": "Sun, 08 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Mon, 09 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
@@ -363,13 +365,13 @@
   "bancocentral": "ok",
   "popular": "ok",
   "banreservas": "enlace",
-  "bhd": "ok",
+  "bhd": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)",
   "scotiabank": "ok",
   "caribe": "enlace",
   "bdi": "ok",
   "vimenca": "ok",
   "apap": "ok",
-  "cibao": "ok",
+  "cibao": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)",
   "caribeexpress": "ok",
   "micm": "ok"
  }

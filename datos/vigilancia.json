@@ -1,0 +1,56 @@
+{
+ "exchangerate": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "bancocentral": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "popular": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "banreservas": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "bhd": {
+  "fallas": 1,
+  "aviso": null,
+  "ultimo": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
+ },
+ "scotiabank": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "caribe": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "bdi": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "vimenca": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "apap": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "cibao": {
+  "fallas": 1,
+  "aviso": null,
+  "ultimo": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
+ },
+ "caribeexpress": {
+  "fallas": 0,
+  "aviso": null
+ },
+ "micm": {
+  "fallas": 0,
+  "aviso": null
+ }
+}
