@@ -8,17 +8,17 @@
   "aviso": null
  },
  "popular": {
-  "fallas": 0,
-  "aviso": null
+  "fallas": 1,
+  "aviso": null,
+  "ultimo": "vieja: la fuente no actualiza desde el 2026-11-06"
  },
  "banreservas": {
   "fallas": 0,
   "aviso": null
  },
  "bhd": {
-  "fallas": 2,
-  "aviso": null,
-  "ultimo": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
+  "fallas": 0,
+  "aviso": null
  },
  "scotiabank": {
   "fallas": 0,
@@ -41,9 +41,8 @@
   "aviso": null
  },
  "cibao": {
-  "fallas": 2,
-  "aviso": null,
-  "ultimo": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.4263)"
+  "fallas": 0,
+  "aviso": null
  },
  "caribeexpress": {
   "fallas": 0,
