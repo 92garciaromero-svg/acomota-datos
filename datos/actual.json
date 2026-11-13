@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-12T20:03-04:00",
+ "actualizado": "2026-11-13T14:28-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.5931,
@@ -8,11 +8,11 @@
   },
   "fecha_fuente": "2026-11-12",
   "vigente": true,
-  "leido": "2026-11-12T20:03-04:00",
+  "leido": "2026-11-13T14:28-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
-   "compra": 60.4734,
-   "venta": 60.8657
+   "compra": 60.5931,
+   "venta": 60.865
   }
  },
  "lugares": [
@@ -22,16 +22,16 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 57.45,
+    "compra": 58.0,
     "venta": 61.45
    },
    "eur": {
-    "compra": 65.4,
-    "venta": 70.0
+    "compra": 65.15,
+    "venta": 69.75
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
-   "fecha_fuente": "2026-11-12T17:15:00+00:00",
+   "leido": "2026-11-13T14:28-04:00",
+   "fecha_fuente": "2026-11-13T13:10:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
+   "leido": "2026-11-13T14:28-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 70.3
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
+   "leido": "2026-11-13T14:28-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -104,8 +104,8 @@
      "venta": 61.45
     },
     "eur": {
-     "compra": 66.7,
-     "venta": 71.1
+     "compra": 65.3,
+     "venta": 70.3
     }
    }
   },
@@ -127,15 +127,15 @@
    "tipo": "Banco",
    "fuente": "https://www.bdi.com.do/",
    "usd": {
-    "compra": 59.75,
-    "venta": 61.5
+    "compra": 59.25,
+    "venta": 61.25
    },
    "eur": {
     "compra": 66.0,
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
+   "leido": "2026-11-13T14:28-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -154,16 +154,16 @@
    "tipo": "Banco",
    "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
    "usd": {
-    "compra": 59.6,
+    "compra": 59.4,
     "venta": 61.4
    },
    "eur": {
-    "compra": 66.5,
-    "venta": 70.5
+    "compra": 66.0,
+    "venta": 70.2
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
-   "fecha_fuente": "2026-11-12",
+   "leido": "2026-11-13T14:28-04:00",
+   "fecha_fuente": "2026-11-13",
    "ayer": {
     "usd": {
      "compra": 59.6,
@@ -189,7 +189,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
+   "leido": "2026-11-13T14:28-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -197,8 +197,8 @@
      "venta": 61.45
     },
     "eur": {
-     "compra": 66.3,
-     "venta": 71.0
+     "compra": 65.25,
+     "venta": 70.0
     }
    }
   },
@@ -216,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
+   "leido": "2026-11-13T14:28-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -235,7 +235,7 @@
    "tipo": "Remesadora",
    "fuente": "https://caribeexpress.com.do/servicios/cambio",
    "usd": {
-    "compra": 60.0,
+    "compra": 59.75,
     "venta": null
    },
    "eur": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-12T20:03-04:00",
+   "leido": "2026-11-13T14:28-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -262,40 +262,40 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.8384
+    "pesos": 61.1023
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 67.7736
+    "pesos": 67.7277
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 42.7698
+    "pesos": 42.8872
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 81.0438
+    "pesos": 81.0373
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.2641
+    "pesos": 3.2756
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 73.4322
+    "pesos": 73.373
    },
    {
     "codigo": "HTG",
     "nombre": "Gourde haitiano",
-    "pesos": 0.4631
+    "pesos": 0.4628
    }
   ],
-  "fecha_fuente": "Thu, 12 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Fri, 13 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
