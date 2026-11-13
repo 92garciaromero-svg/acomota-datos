@@ -1,14 +1,14 @@
 {
  "version": 1,
- "actualizado": "2026-11-12T14:47-04:00",
+ "actualizado": "2026-11-12T20:03-04:00",
  "banco_central": {
   "usd": {
-   "compra": 60.4734,
-   "venta": 60.8657
+   "compra": 60.5931,
+   "venta": 60.865
   },
-  "fecha_fuente": "2026-11-11",
+  "fecha_fuente": "2026-11-12",
   "vigente": true,
-  "leido": "2026-11-12T14:47-04:00",
+  "leido": "2026-11-12T20:03-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.4734,
@@ -22,7 +22,7 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 58.0,
+    "compra": 57.45,
     "venta": 61.45
    },
    "eur": {
@@ -30,8 +30,8 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
-   "fecha_fuente": "2026-11-12T08:45:00+00:00",
+   "leido": "2026-11-12T20:03-04:00",
+   "fecha_fuente": "2026-11-12T17:15:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 70.3
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -135,7 +135,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,7 +162,7 @@
     "venta": 70.5
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": "2026-11-12",
    "ayer": {
     "usd": {
@@ -185,11 +185,11 @@
     "venta": 61.45
    },
    "eur": {
-    "compra": 66.3,
-    "venta": 71.0
+    "compra": 65.25,
+    "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -216,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-12T14:47-04:00",
+   "leido": "2026-11-12T20:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
