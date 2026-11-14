@@ -1,14 +1,14 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T14:28-04:00",
+ "actualizado": "2026-11-13T20:17-04:00",
  "banco_central": {
   "usd": {
-   "compra": 60.5931,
-   "venta": 60.865
+   "compra": 60.3636,
+   "venta": 60.8132
   },
-  "fecha_fuente": "2026-11-12",
+  "fecha_fuente": "2026-11-13",
   "vigente": true,
-  "leido": "2026-11-13T14:28-04:00",
+  "leido": "2026-11-13T20:17-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.5931,
@@ -22,7 +22,7 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 58.0,
+    "compra": 57.45,
     "venta": 61.45
    },
    "eur": {
@@ -30,8 +30,8 @@
     "venta": 69.75
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
-   "fecha_fuente": "2026-11-13T13:10:00+00:00",
+   "leido": "2026-11-13T20:17-04:00",
+   "fecha_fuente": "2026-11-13T17:10:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -69,7 +69,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 70.3
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -135,7 +135,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,7 +162,7 @@
     "venta": 70.2
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": "2026-11-13",
    "ayer": {
     "usd": {
@@ -189,7 +189,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -216,7 +216,7 @@
     "venta": 71.5
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-13T14:28-04:00",
+   "leido": "2026-11-13T20:17-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -301,15 +301,15 @@
   "fuente": "https://www.exchangerate-api.com"
  },
  "combustibles": {
-  "publicado": "2026-11-06T21:00:06+00:00",
-  "semana": "7 al 13 de noviembre de 2026",
+  "publicado": "2026-11-13T19:41:14+00:00",
+  "semana": "14 al 20 de noviembre",
   "precios": [
    {
     "id": "gasolina_premium",
     "nombre": "Gasolina premium",
     "precio": 362.1,
     "unidad": "galón",
-    "cambio": 4.0
+    "cambio": 0.0
    },
    {
     "id": "gasolina_regular",
@@ -330,7 +330,7 @@
     "nombre": "Gasoil óptimo",
     "precio": 322.1,
     "unidad": "galón",
-    "cambio": 4.0
+    "cambio": 0.0
    },
    {
     "id": "glp",
@@ -342,9 +342,9 @@
    {
     "id": "kerosene",
     "nombre": "Kerosene",
-    "precio": 383.0,
+    "precio": 375.6,
     "unidad": "galón",
-    "cambio": -17.1
+    "cambio": -7.4
    },
    {
     "id": "gas_natural",
@@ -354,7 +354,7 @@
     "cambio": 0.0
    }
   ],
-  "enlace": "https://micm.gob.do/gobierno-reajusta-combustibles-premium/",
+  "enlace": "https://micm.gob.do/gobierno-congela-precios-de-los-principales-combustibles/",
   "vigente": true,
   "fuente": "https://micm.gob.do"
  },
