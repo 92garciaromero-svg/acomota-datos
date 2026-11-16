@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-14T22:29-04:00",
+ "actualizado": "2026-11-16T16:53-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.3636,
@@ -8,7 +8,7 @@
   },
   "fecha_fuente": "2026-11-13",
   "vigente": true,
-  "leido": "2026-11-14T22:29-04:00",
+  "leido": "2026-11-16T16:53-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.3636,
@@ -22,16 +22,16 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 57.45,
+    "compra": 58.0,
     "venta": 61.45
    },
    "eur": {
-    "compra": 65.15,
-    "venta": 69.75
+    "compra": 64.5,
+    "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
-   "fecha_fuente": "2026-11-13T17:10:00+00:00",
+   "leido": "2026-11-16T16:53-04:00",
+   "fecha_fuente": "2026-11-16T14:30:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -65,11 +65,11 @@
     "venta": 61.4
    },
    "eur": {
-    "compra": 66.0,
-    "venta": 71.5
+    "compra": 64.5,
+    "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
+   "leido": "2026-11-16T16:53-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 70.3
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
+   "leido": "2026-11-16T16:53-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -127,7 +127,7 @@
    "tipo": "Banco",
    "fuente": "https://www.bdi.com.do/",
    "usd": {
-    "compra": 59.25,
+    "compra": 60.0,
     "venta": 61.25
    },
    "eur": {
@@ -135,7 +135,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
+   "leido": "2026-11-16T16:53-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -158,11 +158,11 @@
     "venta": 61.4
    },
    "eur": {
-    "compra": 66.0,
-    "venta": 70.2
+    "compra": 65.8,
+    "venta": 69.9
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
+   "leido": "2026-11-16T16:53-04:00",
    "fecha_fuente": "2026-11-16",
    "ayer": {
     "usd": {
@@ -189,7 +189,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
+   "leido": "2026-11-16T16:53-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -215,7 +215,7 @@
     "compra": 66.0,
     "venta": 71.5
    },
-   "vigente": true,
+   "vigente": false,
    "leido": "2026-11-14T22:29-04:00",
    "fecha_fuente": null,
    "ayer": {
@@ -227,7 +227,8 @@
      "compra": 66.0,
      "venta": 71.5
     }
-   }
+   },
+   "motivo": "EUR: la venta (71.5) está a más de 6 % de la referencia (67.1682)"
   },
   {
    "id": "caribeexpress",
@@ -239,11 +240,11 @@
     "venta": null
    },
    "eur": {
-    "compra": 66.0,
+    "compra": 65.5,
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-14T22:29-04:00",
+   "leido": "2026-11-16T16:53-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -262,40 +263,40 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.9496
+    "pesos": 60.8347
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 67.5539
+    "pesos": 67.1682
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 42.7753
+    "pesos": 42.6548
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 80.8473
+    "pesos": 80.4376
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.2705
+    "pesos": 3.2742
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 73.1904
+    "pesos": 72.5374
    },
    {
     "codigo": "HTG",
     "nombre": "Gourde haitiano",
-    "pesos": 0.4628
+    "pesos": 0.4635
    }
   ],
-  "fecha_fuente": "Sun, 15 Nov 2026 00:02:32 +0000",
+  "fecha_fuente": "Mon, 16 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
@@ -369,7 +370,7 @@
   "bdi": "ok",
   "vimenca": "ok",
   "apap": "ok",
-  "cibao": "ok",
+  "cibao": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.1682)",
   "caribeexpress": "ok",
   "micm": "ok"
  }
