@@ -40,9 +40,9 @@
   "aviso": null
  },
  "cibao": {
-  "fallas": 1,
+  "fallas": 2,
   "aviso": null,
-  "ultimo": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (67.1682)"
+  "ultimo": "error: EUR: la venta (71.5) está a más de 6 % de la referencia (66.9748)"
  },
  "caribeexpress": {
   "fallas": 0,
