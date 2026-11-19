@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-18T22:27-04:00",
+ "actualizado": "2026-11-19T15:26-04:00",
  "banco_central": {
   "usd": {
    "compra": 59.9459,
@@ -8,11 +8,11 @@
   },
   "fecha_fuente": "2026-11-18",
   "vigente": true,
-  "leido": "2026-11-18T22:27-04:00",
+  "leido": "2026-11-19T15:26-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
-   "compra": 60.0061,
-   "venta": 60.3424
+   "compra": 59.9459,
+   "venta": 60.2983
   }
  },
  "lugares": [
@@ -22,16 +22,16 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 57.45,
-    "venta": 61.45
+    "compra": 57.8,
+    "venta": 61.25
    },
    "eur": {
     "compra": 64.5,
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
-   "fecha_fuente": "2026-11-18T17:15:00+00:00",
+   "leido": "2026-11-19T15:26-04:00",
+   "fecha_fuente": "2026-11-19T12:05:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -61,15 +61,15 @@
    "tipo": "Banco",
    "fuente": "https://backend.bhd.com.do/api/modal-cambio-rate?populate=deep",
    "usd": {
-    "compra": 57.95,
-    "venta": 61.4
+    "compra": 57.75,
+    "venta": 61.2
    },
    "eur": {
     "compra": 64.5,
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
+   "leido": "2026-11-19T15:26-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 69.1
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
+   "leido": "2026-11-19T15:26-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -127,15 +127,15 @@
    "tipo": "Banco",
    "fuente": "https://www.bdi.com.do/",
    "usd": {
-    "compra": 59.25,
-    "venta": 61.25
+    "compra": 59.0,
+    "venta": 61.0
    },
    "eur": {
     "compra": 65.5,
     "venta": 69.5
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
+   "leido": "2026-11-19T15:26-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -154,24 +154,24 @@
    "tipo": "Banco",
    "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
    "usd": {
-    "compra": 59.3,
-    "venta": 61.3
+    "compra": 59.0,
+    "venta": 61.2
    },
    "eur": {
     "compra": 65.0,
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
-   "fecha_fuente": "2026-11-18",
+   "leido": "2026-11-19T15:26-04:00",
+   "fecha_fuente": "2026-11-19",
    "ayer": {
     "usd": {
      "compra": 59.3,
      "venta": 61.3
     },
     "eur": {
-     "compra": 65.5,
-     "venta": 69.5
+     "compra": 65.0,
+     "venta": 69.0
     }
    }
   },
@@ -189,7 +189,7 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
+   "leido": "2026-11-19T15:26-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -197,8 +197,8 @@
      "venta": 61.45
     },
     "eur": {
-     "compra": 65.25,
-     "venta": 70.0
+     "compra": 64.5,
+     "venta": 69.0
     }
    }
   },
@@ -208,15 +208,15 @@
    "tipo": "Asociación",
    "fuente": "https://www.cibao.com.do/api/Coins/GetCoins",
    "usd": {
-    "compra": 59.4,
-    "venta": 61.4
+    "compra": 59.0,
+    "venta": 61.0
    },
    "eur": {
     "compra": 64.5,
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-18T22:27-04:00",
+   "leido": "2026-11-19T15:26-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -242,7 +242,7 @@
     "compra": 65.0,
     "venta": null
    },
-   "vigente": true,
+   "vigente": false,
    "leido": "2026-11-18T22:27-04:00",
    "fecha_fuente": null,
    "ayer": {
@@ -251,10 +251,11 @@
      "venta": null
     },
     "eur": {
-     "compra": 65.5,
+     "compra": 65.0,
      "venta": null
     }
-   }
+   },
+   "motivo": "no se pudo descargar (ConnectTimeout)"
   }
  ],
  "monedas": {
@@ -370,7 +371,7 @@
   "vimenca": "ok",
   "apap": "ok",
   "cibao": "ok",
-  "caribeexpress": "ok",
+  "caribeexpress": "error: no se pudo descargar (ConnectTimeout)",
   "micm": "ok"
  }
 }
