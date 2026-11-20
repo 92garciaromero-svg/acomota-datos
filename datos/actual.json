@@ -1,14 +1,14 @@
 {
  "version": 1,
- "actualizado": "2026-11-19T15:26-04:00",
+ "actualizado": "2026-11-19T22:12-04:00",
  "banco_central": {
   "usd": {
-   "compra": 59.9459,
-   "venta": 60.2983
+   "compra": 59.5181,
+   "venta": 60.0436
   },
-  "fecha_fuente": "2026-11-18",
+  "fecha_fuente": "2026-11-19",
   "vigente": true,
-  "leido": "2026-11-19T15:26-04:00",
+  "leido": "2026-11-19T22:12-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 59.9459,
@@ -22,7 +22,7 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 57.8,
+    "compra": 57.25,
     "venta": 61.25
    },
    "eur": {
@@ -30,8 +30,8 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
-   "fecha_fuente": "2026-11-19T12:05:00+00:00",
+   "leido": "2026-11-19T22:12-04:00",
+   "fecha_fuente": "2026-11-19T17:45:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.45,
@@ -69,7 +69,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,7 +96,7 @@
     "venta": 69.1
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -135,7 +135,7 @@
     "venta": 69.5
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -154,7 +154,7 @@
    "tipo": "Banco",
    "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
    "usd": {
-    "compra": 59.0,
+    "compra": 58.5,
     "venta": 61.2
    },
    "eur": {
@@ -162,7 +162,7 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": "2026-11-19",
    "ayer": {
     "usd": {
@@ -189,7 +189,7 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -216,7 +216,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-19T15:26-04:00",
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -235,15 +235,15 @@
    "tipo": "Remesadora",
    "fuente": "https://caribeexpress.com.do/servicios/cambio",
    "usd": {
-    "compra": 59.5,
+    "compra": 59.25,
     "venta": null
    },
    "eur": {
-    "compra": 65.0,
+    "compra": 64.5,
     "venta": null
    },
-   "vigente": false,
-   "leido": "2026-11-18T22:27-04:00",
+   "vigente": true,
+   "leido": "2026-11-19T22:12-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -254,8 +254,7 @@
      "compra": 65.0,
      "venta": null
     }
-   },
-   "motivo": "no se pudo descargar (ConnectTimeout)"
+   }
   }
  ],
  "monedas": {
@@ -263,40 +262,40 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 60.4558
+    "pesos": 60.3865
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 66.4055
+    "pesos": 66.3174
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 42.2869
+    "pesos": 42.1816
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 79.7321
+    "pesos": 79.3777
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.2655
+    "pesos": 3.1928
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 71.8494
+    "pesos": 71.6332
    },
    {
     "codigo": "HTG",
     "nombre": "Gourde haitiano",
-    "pesos": 0.4614
+    "pesos": 0.461
    }
   ],
-  "fecha_fuente": "Thu, 19 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Fri, 20 Nov 2026 00:02:32 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
@@ -371,7 +370,7 @@
   "vimenca": "ok",
   "apap": "ok",
   "cibao": "ok",
-  "caribeexpress": "error: no se pudo descargar (ConnectTimeout)",
+  "caribeexpress": "ok",
   "micm": "ok"
  }
 }

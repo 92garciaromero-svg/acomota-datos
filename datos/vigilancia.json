@@ -44,9 +44,8 @@
   "aviso": null
  },
  "caribeexpress": {
-  "fallas": 1,
-  "aviso": null,
-  "ultimo": "error: no se pudo descargar (ConnectTimeout)"
+  "fallas": 0,
+  "aviso": null
  },
  "micm": {
   "fallas": 0,
