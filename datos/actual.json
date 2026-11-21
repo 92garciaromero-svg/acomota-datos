@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-20T20:44-04:00",
+ "actualizado": "2026-11-21T13:55-04:00",
  "banco_central": {
   "usd": {
    "compra": 59.5429,
@@ -8,11 +8,11 @@
   },
   "fecha_fuente": "2026-11-20",
   "vigente": true,
-  "leido": "2026-11-20T20:44-04:00",
+  "leido": "2026-11-21T13:55-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
-   "compra": 59.5181,
-   "venta": 60.0436
+   "compra": 59.5429,
+   "venta": 59.9773
   }
  },
  "lugares": [
@@ -30,7 +30,7 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": "2026-11-20T17:40:00+00:00",
    "ayer": {
     "usd": {
@@ -69,7 +69,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -96,16 +96,16 @@
     "venta": 68.7
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
-     "compra": 58.0,
-     "venta": 61.45
+     "compra": 57.8,
+     "venta": 61.25
     },
     "eur": {
-     "compra": 64.1,
-     "venta": 69.1
+     "compra": 63.7,
+     "venta": 68.7
     }
    }
   },
@@ -135,7 +135,7 @@
     "venta": 69.5
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -162,8 +162,8 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
-   "fecha_fuente": "2026-11-20",
+   "leido": "2026-11-21T13:55-04:00",
+   "fecha_fuente": "2026-11-23",
    "ayer": {
     "usd": {
      "compra": 58.5,
@@ -189,12 +189,12 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
-     "compra": 58.5,
-     "venta": 61.45
+     "compra": 57.5,
+     "venta": 61.2
     },
     "eur": {
      "compra": 64.5,
@@ -216,7 +216,7 @@
     "venta": 70.0
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -243,7 +243,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-20T20:44-04:00",
+   "leido": "2026-11-21T13:55-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
