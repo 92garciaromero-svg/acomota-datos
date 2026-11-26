@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-25T23:27-04:00",
+ "actualizado": "2026-11-26T16:03-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.3732,
@@ -8,11 +8,11 @@
   },
   "fecha_fuente": "2026-11-25",
   "vigente": true,
-  "leido": "2026-11-25T23:27-04:00",
+  "leido": "2026-11-26T16:03-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
-   "compra": 59.7375,
-   "venta": 60.223
+   "compra": 60.3732,
+   "venta": 60.7912
   }
  },
  "lugares": [
@@ -22,7 +22,7 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 58.05,
+    "compra": 58.15,
     "venta": 61.5
    },
    "eur": {
@@ -30,16 +30,16 @@
     "venta": 68.9
    },
    "vigente": true,
-   "leido": "2026-11-25T23:27-04:00",
-   "fecha_fuente": "2026-11-25T18:25:00+00:00",
+   "leido": "2026-11-26T16:03-04:00",
+   "fecha_fuente": "2026-11-26T18:15:00+00:00",
    "ayer": {
     "usd": {
-     "compra": 57.8,
-     "venta": 61.25
+     "compra": 58.05,
+     "venta": 61.5
     },
     "eur": {
-     "compra": 64.0,
-     "venta": 68.5
+     "compra": 64.4,
+     "venta": 68.9
     }
    }
   },
@@ -72,7 +72,7 @@
    "leido": "2026-11-21T19:44-04:00",
    "fecha_fuente": null,
    "ayer": null,
-   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.3211)"
+   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.4193)"
   },
   {
    "id": "scotiabank",
@@ -87,7 +87,7 @@
     "compra": 63.7,
     "venta": 68.7
    },
-   "vigente": true,
+   "vigente": false,
    "leido": "2026-11-25T23:27-04:00",
    "fecha_fuente": null,
    "ayer": {
@@ -99,7 +99,8 @@
      "compra": 63.7,
      "venta": 68.7
     }
-   }
+   },
+   "motivo": "EUR: la venta (69.6) está a más de 6 % de la referencia (65.4193)"
   },
   {
    "id": "caribe",
@@ -129,17 +130,8 @@
    "vigente": false,
    "leido": "2026-11-24T17:04-04:00",
    "fecha_fuente": null,
-   "ayer": {
-    "usd": {
-     "compra": 59.5,
-     "venta": 61.25
-    },
-    "eur": {
-     "compra": 65.5,
-     "venta": 69.5
-    }
-   },
-   "motivo": "EUR: la venta (69.5) está a más de 6 % de la referencia (65.3211)"
+   "ayer": null,
+   "motivo": "EUR: la venta (69.5) está a más de 6 % de la referencia (65.4193)"
   },
   {
    "id": "vimenca",
@@ -147,24 +139,24 @@
    "tipo": "Banco",
    "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
    "usd": {
-    "compra": 59.0,
-    "venta": 61.25
+    "compra": 59.25,
+    "venta": 61.5
    },
    "eur": {
     "compra": 64.8,
-    "venta": 68.8
+    "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-25T23:27-04:00",
-   "fecha_fuente": "2026-11-25",
+   "leido": "2026-11-26T16:03-04:00",
+   "fecha_fuente": "2026-11-26",
    "ayer": {
     "usd": {
-     "compra": 58.75,
-     "venta": 61.2
+     "compra": 59.0,
+     "venta": 61.25
     },
     "eur": {
      "compra": 64.8,
-     "venta": 68.9
+     "venta": 68.8
     }
    }
   },
@@ -174,15 +166,15 @@
    "tipo": "Asociación",
    "fuente": "https://www.apap.com.do/",
    "usd": {
-    "compra": 57.5,
-    "venta": 61.2
+    "compra": 58.0,
+    "venta": 61.5
    },
    "eur": {
     "compra": 64.5,
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-25T23:27-04:00",
+   "leido": "2026-11-26T16:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -212,7 +204,7 @@
    "leido": "2026-11-21T19:44-04:00",
    "fecha_fuente": null,
    "ayer": null,
-   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.3211)"
+   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.4193)"
   },
   {
    "id": "caribeexpress",
@@ -220,19 +212,19 @@
    "tipo": "Remesadora",
    "fuente": "https://caribeexpress.com.do/servicios/cambio",
    "usd": {
-    "compra": 59.75,
+    "compra": 60.0,
     "venta": null
    },
    "eur": {
-    "compra": 64.5,
+    "compra": 64.8,
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-25T23:27-04:00",
+   "leido": "2026-11-26T16:03-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
-     "compra": 59.5,
+     "compra": 59.75,
      "venta": null
     },
     "eur": {
@@ -247,40 +239,40 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 59.6908
+    "pesos": 59.8229
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 65.3211
+    "pesos": 65.4193
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 41.625
+    "pesos": 41.9322
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 78.0518
+    "pesos": 78.18
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.1035
+    "pesos": 3.0484
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 71.1389
+    "pesos": 71.7927
    },
    {
     "codigo": "HTG",
     "nombre": "Gourde haitiano",
-    "pesos": 0.4556
+    "pesos": 0.4569
    }
   ],
-  "fecha_fuente": "Wed, 25 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Thu, 26 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
@@ -348,13 +340,13 @@
   "bancocentral": "ok",
   "popular": "ok",
   "banreservas": "enlace",
-  "bhd": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.3211)",
-  "scotiabank": "ok",
+  "bhd": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.4193)",
+  "scotiabank": "error: EUR: la venta (69.6) está a más de 6 % de la referencia (65.4193)",
   "caribe": "enlace",
-  "bdi": "error: EUR: la venta (69.5) está a más de 6 % de la referencia (65.3211)",
+  "bdi": "error: EUR: la venta (69.5) está a más de 6 % de la referencia (65.4193)",
   "vimenca": "ok",
   "apap": "ok",
-  "cibao": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.3211)",
+  "cibao": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.4193)",
   "caribeexpress": "ok",
   "micm": "ok"
  }
