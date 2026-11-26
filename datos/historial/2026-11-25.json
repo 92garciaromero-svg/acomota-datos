@@ -1,14 +1,14 @@
 {
  "version": 1,
- "actualizado": "2026-11-25T16:26-04:00",
+ "actualizado": "2026-11-25T23:27-04:00",
  "banco_central": {
   "usd": {
-   "compra": 60.1494,
-   "venta": 60.5286
+   "compra": 60.3732,
+   "venta": 60.7912
   },
-  "fecha_fuente": "2026-11-24",
+  "fecha_fuente": "2026-11-25",
   "vigente": true,
-  "leido": "2026-11-25T16:26-04:00",
+  "leido": "2026-11-25T23:27-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 59.7375,
@@ -22,16 +22,16 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 57.8,
-    "venta": 61.25
+    "compra": 58.05,
+    "venta": 61.5
    },
    "eur": {
     "compra": 64.4,
     "venta": 68.9
    },
    "vigente": true,
-   "leido": "2026-11-25T16:26-04:00",
-   "fecha_fuente": "2026-11-25T10:35:00+00:00",
+   "leido": "2026-11-25T23:27-04:00",
+   "fecha_fuente": "2026-11-25T18:25:00+00:00",
    "ayer": {
     "usd": {
      "compra": 57.8,
@@ -88,7 +88,7 @@
     "venta": 68.7
    },
    "vigente": true,
-   "leido": "2026-11-25T16:26-04:00",
+   "leido": "2026-11-25T23:27-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -147,15 +147,15 @@
    "tipo": "Banco",
    "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
    "usd": {
-    "compra": 58.75,
-    "venta": 61.2
+    "compra": 59.0,
+    "venta": 61.25
    },
    "eur": {
     "compra": 64.8,
     "venta": 68.8
    },
    "vigente": true,
-   "leido": "2026-11-25T16:26-04:00",
+   "leido": "2026-11-25T23:27-04:00",
    "fecha_fuente": "2026-11-25",
    "ayer": {
     "usd": {
@@ -182,7 +182,7 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-25T16:26-04:00",
+   "leido": "2026-11-25T23:27-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -228,7 +228,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-25T16:26-04:00",
+   "leido": "2026-11-25T23:27-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {

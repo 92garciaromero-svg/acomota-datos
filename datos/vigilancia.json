@@ -16,7 +16,7 @@
   "aviso": null
  },
  "bhd": {
-  "fallas": 5,
+  "fallas": 6,
   "aviso": 1,
   "ultimo": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.3211)"
  },
@@ -29,8 +29,8 @@
   "aviso": null
  },
  "bdi": {
-  "fallas": 2,
-  "aviso": null,
+  "fallas": 3,
+  "aviso": 3,
   "ultimo": "error: EUR: la venta (69.5) está a más de 6 % de la referencia (65.3211)"
  },
  "vimenca": {
@@ -42,7 +42,7 @@
   "aviso": null
  },
  "cibao": {
-  "fallas": 5,
+  "fallas": 6,
   "aviso": 2,
   "ultimo": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.3211)"
  },
