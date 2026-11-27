@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-26T23:35-04:00",
+ "actualizado": "2026-11-27T15:52-04:00",
  "banco_central": {
   "usd": {
    "compra": 60.4366,
@@ -8,11 +8,11 @@
   },
   "fecha_fuente": "2026-11-26",
   "vigente": true,
-  "leido": "2026-11-26T23:35-04:00",
+  "leido": "2026-11-27T15:52-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
-   "compra": 60.3732,
-   "venta": 60.7912
+   "compra": 60.4366,
+   "venta": 60.8371
   }
  },
  "lugares": [
@@ -22,19 +22,19 @@
    "tipo": "Banco",
    "fuente": "https://popularenlinea.com/_api/web/lists/getbytitle('Rates')/items?$filter=ItemID%20eq%20%271%27",
    "usd": {
-    "compra": 58.15,
-    "venta": 61.5
+    "compra": 58.3,
+    "venta": 61.65
    },
    "eur": {
-    "compra": 64.4,
-    "venta": 68.9
+    "compra": 65.15,
+    "venta": 69.65
    },
    "vigente": true,
-   "leido": "2026-11-26T23:35-04:00",
-   "fecha_fuente": "2026-11-26T18:15:00+00:00",
+   "leido": "2026-11-27T15:52-04:00",
+   "fecha_fuente": "2026-11-27T12:35:00+00:00",
    "ayer": {
     "usd": {
-     "compra": 58.05,
+     "compra": 58.15,
      "venta": 61.5
     },
     "eur": {
@@ -87,19 +87,20 @@
     "compra": 64.6,
     "venta": 69.6
    },
-   "vigente": true,
+   "vigente": false,
    "leido": "2026-11-26T23:35-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
-     "compra": 57.8,
-     "venta": 61.25
+     "compra": 58.05,
+     "venta": 61.5
     },
     "eur": {
-     "compra": 63.7,
-     "venta": 68.7
+     "compra": 64.6,
+     "venta": 69.6
     }
-   }
+   },
+   "motivo": "EUR: la venta (69.8) está a más de 6 % de la referencia (65.8155)"
   },
   {
    "id": "caribe",
@@ -119,17 +120,26 @@
    "tipo": "Banco",
    "fuente": "https://www.bdi.com.do/",
    "usd": {
-    "compra": 60.0,
-    "venta": 61.5
+    "compra": 60.25,
+    "venta": 61.75
    },
    "eur": {
     "compra": 65.5,
     "venta": 69.5
    },
    "vigente": true,
-   "leido": "2026-11-26T23:35-04:00",
+   "leido": "2026-11-27T15:52-04:00",
    "fecha_fuente": null,
-   "ayer": null
+   "ayer": {
+    "usd": {
+     "compra": 60.0,
+     "venta": 61.5
+    },
+    "eur": {
+     "compra": 65.5,
+     "venta": 69.5
+    }
+   }
   },
   {
    "id": "vimenca",
@@ -137,24 +147,24 @@
    "tipo": "Banco",
    "fuente": "https://backend.bancovimenca.com/api/services/bank/tasa",
    "usd": {
-    "compra": 59.25,
-    "venta": 61.5
+    "compra": 59.5,
+    "venta": 61.7
    },
    "eur": {
     "compra": 64.8,
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-26T23:35-04:00",
-   "fecha_fuente": "2026-11-26",
+   "leido": "2026-11-27T15:52-04:00",
+   "fecha_fuente": "2026-11-27",
    "ayer": {
     "usd": {
-     "compra": 59.0,
-     "venta": 61.25
+     "compra": 59.25,
+     "venta": 61.5
     },
     "eur": {
      "compra": 64.8,
-     "venta": 68.8
+     "venta": 69.0
     }
    }
   },
@@ -172,12 +182,12 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-26T23:35-04:00",
+   "leido": "2026-11-27T15:52-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
-     "compra": 57.5,
-     "venta": 61.2
+     "compra": 58.0,
+     "venta": 61.5
     },
     "eur": {
      "compra": 64.5,
@@ -218,15 +228,15 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-26T23:35-04:00",
+   "leido": "2026-11-27T15:52-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
-     "compra": 59.75,
+     "compra": 60.0,
      "venta": null
     },
     "eur": {
-     "compra": 64.5,
+     "compra": 64.8,
      "venta": null
     }
    }
@@ -339,7 +349,7 @@
   "popular": "ok",
   "banreservas": "enlace",
   "bhd": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)",
-  "scotiabank": "ok",
+  "scotiabank": "error: EUR: la venta (69.8) está a más de 6 % de la referencia (65.8155)",
   "caribe": "enlace",
   "bdi": "ok",
   "vimenca": "ok",

@@ -16,13 +16,14 @@
   "aviso": null
  },
  "bhd": {
-  "fallas": 8,
+  "fallas": 9,
   "aviso": 1,
   "ultimo": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)"
  },
  "scotiabank": {
-  "fallas": 0,
-  "aviso": null
+  "fallas": 1,
+  "aviso": null,
+  "ultimo": "error: EUR: la venta (69.8) está a más de 6 % de la referencia (65.8155)"
  },
  "caribe": {
   "fallas": 0,
@@ -41,7 +42,7 @@
   "aviso": null
  },
  "cibao": {
-  "fallas": 8,
+  "fallas": 9,
   "aviso": 2,
   "ultimo": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)"
  },
