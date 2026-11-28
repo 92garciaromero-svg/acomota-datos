@@ -1,14 +1,14 @@
 {
  "version": 1,
- "actualizado": "2026-11-27T15:52-04:00",
+ "actualizado": "2026-11-27T23:11-04:00",
  "banco_central": {
   "usd": {
-   "compra": 60.4366,
-   "venta": 60.8371
+   "compra": 60.646,
+   "venta": 61.1019
   },
-  "fecha_fuente": "2026-11-26",
+  "fecha_fuente": "2026-11-27",
   "vigente": true,
-  "leido": "2026-11-27T15:52-04:00",
+  "leido": "2026-11-27T23:11-04:00",
   "fuente": "https://www.bancentral.gov.do/",
   "ayer": {
    "compra": 60.4366,
@@ -30,7 +30,7 @@
     "venta": 69.65
    },
    "vigente": true,
-   "leido": "2026-11-27T15:52-04:00",
+   "leido": "2026-11-27T23:11-04:00",
    "fecha_fuente": "2026-11-27T12:35:00+00:00",
    "ayer": {
     "usd": {
@@ -72,7 +72,7 @@
    "leido": "2026-11-21T19:44-04:00",
    "fecha_fuente": null,
    "ayer": null,
-   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)"
+   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.9239)"
   },
   {
    "id": "scotiabank",
@@ -80,15 +80,15 @@
    "tipo": "Banco",
    "fuente": "https://do.scotiabank.com/banca-personal/tarifas/tasas-de-cambio.html",
    "usd": {
-    "compra": 58.05,
-    "venta": 61.5
+    "compra": 58.3,
+    "venta": 61.65
    },
    "eur": {
-    "compra": 64.6,
-    "venta": 69.6
+    "compra": 64.8,
+    "venta": 69.8
    },
-   "vigente": false,
-   "leido": "2026-11-26T23:35-04:00",
+   "vigente": true,
+   "leido": "2026-11-27T23:11-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -99,8 +99,7 @@
      "compra": 64.6,
      "venta": 69.6
     }
-   },
-   "motivo": "EUR: la venta (69.8) está a más de 6 % de la referencia (65.8155)"
+   }
   },
   {
    "id": "caribe",
@@ -128,7 +127,7 @@
     "venta": 69.5
    },
    "vigente": true,
-   "leido": "2026-11-27T15:52-04:00",
+   "leido": "2026-11-27T23:11-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -155,7 +154,7 @@
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-27T15:52-04:00",
+   "leido": "2026-11-27T23:11-04:00",
    "fecha_fuente": "2026-11-27",
    "ayer": {
     "usd": {
@@ -174,15 +173,15 @@
    "tipo": "Asociación",
    "fuente": "https://www.apap.com.do/",
    "usd": {
-    "compra": 58.0,
-    "venta": 61.5
+    "compra": 58.5,
+    "venta": 61.75
    },
    "eur": {
     "compra": 64.5,
     "venta": 69.0
    },
    "vigente": true,
-   "leido": "2026-11-27T15:52-04:00",
+   "leido": "2026-11-27T23:11-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -212,7 +211,7 @@
    "leido": "2026-11-21T19:44-04:00",
    "fecha_fuente": null,
    "ayer": null,
-   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)"
+   "motivo": "EUR: la venta (70.0) está a más de 6 % de la referencia (65.9239)"
   },
   {
    "id": "caribeexpress",
@@ -228,7 +227,7 @@
     "venta": null
    },
    "vigente": true,
-   "leido": "2026-11-27T15:52-04:00",
+   "leido": "2026-11-27T23:11-04:00",
    "fecha_fuente": null,
    "ayer": {
     "usd": {
@@ -247,32 +246,32 @@
    {
     "codigo": "USD",
     "nombre": "Dólar estadounidense",
-    "pesos": 59.9664
+    "pesos": 60.0384
    },
    {
     "codigo": "EUR",
     "nombre": "Euro",
-    "pesos": 65.8155
+    "pesos": 65.9239
    },
    {
     "codigo": "CAD",
     "nombre": "Dólar canadiense",
-    "pesos": 42.1745
+    "pesos": 42.2601
    },
    {
     "codigo": "GBP",
     "nombre": "Libra esterlina",
-    "pesos": 78.6164
+    "pesos": 78.7588
    },
    {
     "codigo": "MXN",
     "nombre": "Peso mexicano",
-    "pesos": 3.055
+    "pesos": 3.0637
    },
    {
     "codigo": "CHF",
     "nombre": "Franco suizo",
-    "pesos": 72.0046
+    "pesos": 72.1813
    },
    {
     "codigo": "HTG",
@@ -280,14 +279,14 @@
     "pesos": 0.4586
    }
   ],
-  "fecha_fuente": "Fri, 27 Nov 2026 00:02:31 +0000",
+  "fecha_fuente": "Sat, 28 Nov 2026 00:02:31 +0000",
   "vigente": true,
   "atribucion": "Tasas de otras monedas por ExchangeRate-API (https://www.exchangerate-api.com)",
   "fuente": "https://www.exchangerate-api.com"
  },
  "combustibles": {
-  "publicado": "2026-11-20T19:31:14+00:00",
-  "semana": "21 al 27 de noviembre",
+  "publicado": "2026-11-27T21:37:31+00:00",
+  "semana": "28 de noviembre al 4 de diciembre",
   "precios": [
    {
     "id": "gasolina_premium",
@@ -327,9 +326,9 @@
    {
     "id": "kerosene",
     "nombre": "Kerosene",
-    "precio": 342.5,
+    "precio": 312.9,
     "unidad": "galón",
-    "cambio": -33.1
+    "cambio": -29.6
    },
    {
     "id": "gas_natural",
@@ -339,7 +338,7 @@
     "cambio": 0.0
    }
   ],
-  "enlace": "https://micm.gob.do/gobierno-congela-precios-de-principales-combustibles/",
+  "enlace": "https://micm.gob.do/gobierno-congela-precios-de-principales-combustibles-2/",
   "vigente": true,
   "fuente": "https://micm.gob.do"
  },
@@ -348,13 +347,13 @@
   "bancocentral": "ok",
   "popular": "ok",
   "banreservas": "enlace",
-  "bhd": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)",
-  "scotiabank": "error: EUR: la venta (69.8) está a más de 6 % de la referencia (65.8155)",
+  "bhd": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.9239)",
+  "scotiabank": "ok",
   "caribe": "enlace",
   "bdi": "ok",
   "vimenca": "ok",
   "apap": "ok",
-  "cibao": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.8155)",
+  "cibao": "error: EUR: la venta (70.0) está a más de 6 % de la referencia (65.9239)",
   "caribeexpress": "ok",
   "micm": "ok"
  }
